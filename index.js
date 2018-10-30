@@ -8,4 +8,4 @@ function moveDodger() {
   
 }
 
-dodger.addEventListener('keydown' moveDodger)
+dodger.addEventListener('keydown', moveDodger)

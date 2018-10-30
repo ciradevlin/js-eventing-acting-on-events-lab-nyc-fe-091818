@@ -9,3 +9,5 @@ function moveDodger() {
 }
 
 dodger.addEventListener('keydown', moveDodger)
+
+console.log('i am working')

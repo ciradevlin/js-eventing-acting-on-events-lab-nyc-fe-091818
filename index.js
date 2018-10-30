@@ -4,9 +4,10 @@ console.log('i am woking')
 
 let dodgerPosition = 0 
 
-dodger.style.left = '380px'
+//dodger.style.left = '380px'
 
 function moveDodger() {
+  console.log(event.which)
   
 }
 

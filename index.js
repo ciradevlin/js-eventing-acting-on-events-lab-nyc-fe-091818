@@ -1,4 +1,4 @@
-const dodger = documents.getElementByID('dodger')
+const dodger = document.getElementByID('dodger')
 
 let dodgerPosition = 0 
 

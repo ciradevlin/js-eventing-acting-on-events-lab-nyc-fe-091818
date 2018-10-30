@@ -1,4 +1,6 @@
-const dodger = document.getElementByID ('dodger')
+const dodger = document.getElementByID('dodger')
+
+console.log('i am woking')
 
 let dodgerPosition = 0 
 
@@ -10,4 +12,3 @@ function moveDodger() {
 
 dodger.addEventListener('keydown', moveDodger)
 
-console.log('i am working')

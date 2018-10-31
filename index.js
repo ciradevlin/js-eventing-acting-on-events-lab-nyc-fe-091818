@@ -20,5 +20,5 @@ function moveDodger() {
 }
 }
 
-dodger.addEventListener('keydown', moveDodger)
+document.addEventListener('keydown', moveDodger)
 

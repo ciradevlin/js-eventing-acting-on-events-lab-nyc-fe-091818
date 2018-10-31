@@ -13,6 +13,9 @@ function moveDodger() {
     let oldLeft = dodger.style.left
     oldLeft = parseInt(oldLeft, 10)
     
+    if (oldLeft === 'opx') { 
+      return
+    }
     dodger.style.left = (oldLeft - 10) +'px'
 } else if (keycode === 39) {
   

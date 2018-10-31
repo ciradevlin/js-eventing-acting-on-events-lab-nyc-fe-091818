@@ -13,7 +13,7 @@ function moveDodger() {
     let oldLeft = dodger.style.left
     oldLeft = parseInt(oldLeft, 10)
     
-    if (oldLeft === 'opx') { 
+    if (oldLeft === '0px') { 
       return
     }
     dodger.style.left = (oldLeft - 10) +'px'

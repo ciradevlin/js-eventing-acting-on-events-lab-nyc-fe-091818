@@ -29,7 +29,7 @@ function moveDodgerRight (event) {
   dodger.style.left = (oldLocation + 10) + 'px'
   if (oldLocation === )
   }
-  }
+  
 
 document.addEventListener('keydown', moveDodger)
 

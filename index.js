@@ -24,11 +24,13 @@ function moveDodger() {
 function moveDodgerRight(event) { 
   if (event.which === 39) {
     let oldLocation = dodger.style.left
-    oldLocation = parseInt(oldLocation, 10) 
+    
     
   dodger.style.left = (oldLocation + 10) + 'px'
 
   }
+  
+  oldLocation = parseInt(oldLocation, 10) 
 }
   
 

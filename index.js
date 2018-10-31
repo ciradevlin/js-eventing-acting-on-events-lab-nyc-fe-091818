@@ -7,8 +7,14 @@ let dodgerPosition = 0
 //dodger.style.left = '380px'
 
 function moveDodger() {
-  console.log(event.which)
+  const keycode = event.which
+  if (keycode === 37) {
+} else if (keycode === 39) {
   
+} else if (keycode === 40) {
+  
+
+}
 }
 
 dodger.addEventListener('keydown', moveDodger)

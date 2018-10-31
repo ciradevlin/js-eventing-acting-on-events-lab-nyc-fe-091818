@@ -9,7 +9,10 @@ let dodgerPosition = 0
 function moveDodger() {
   const keycode = event.which
   if (keycode === 37) {
+    dodger.style.right = '360px'
 } else if (keycode === 39) {
+  
+} else if (keycode === 38) {
   
 } else if (keycode === 40) {
   

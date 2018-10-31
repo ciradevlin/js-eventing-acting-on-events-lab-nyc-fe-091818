@@ -18,15 +18,17 @@ function moveDodger() {
     
      oldLeft = parseInt(oldLeft, 10)
     dodger.style.left = (oldLeft - 10) +'px'
-} else if (keycode === 39) {
-  
-} else if (keycode === 38) {
-  
-} else if (keycode === 40) {
-  
+}
+}
 
-}
-}
+function moveDodgerRight (event) { 
+  if (event.which === 39) {
+    let oldLocation = dodger.style.left
+    oldLocation = parseInt(oldLocation, 10) 
+    
+  dodger.style.left = (oldLocation + 10) + 'px'
+  }
+  }
 
 document.addEventListener('keydown', moveDodger)
 

@@ -11,8 +11,9 @@ function moveDodger() {
   console.log(keycode)
   if (keycode === 37) {
     let oldLeft = dodger.style.left
+    oldLeft = parseInt(oldLeft, 10)
     
-    dodger.style.left = oldLeft - '10px'
+    dodger.style.left = (oldLeft - 10) +'px'
 } else if (keycode === 39) {
   
 } else if (keycode === 38) {

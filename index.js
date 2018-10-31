@@ -21,7 +21,7 @@ function moveDodger() {
 }
 }
 
-function moveDodgerRight (event) { 
+function moveDodgerRight(event) { 
   if (event.which === 39) {
     let oldLocation = dodger.style.left
     oldLocation = parseInt(oldLocation, 10) 
